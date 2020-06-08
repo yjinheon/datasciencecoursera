@@ -1,4 +1,4 @@
-# 코드 수행시간 측정 관련련
+# 코드 수행시간 측정 관련
 # https://medium.com/@hslee09/r-%EC%BD%94%EB%93%9C-%EC%88%98%ED%96%89-%EC%8B%9C%EA%B0%84-%EC%B8%A1%EC%A0%95-9453faf3780
 
 # design first then optimize 
@@ -17,7 +17,6 @@
 #  elaped time이 usertime 보다 긴 예시
 system.time(readLines("http://www.jhsph.edu"))
 
-
 #  usertime이 elaped time보다 긴 예시 # 힐베르트 행렬 생성함수
 
 hilbert <- function(n){
@@ -28,7 +27,6 @@ hilbert <- function(n){
 x<- hilbert(1000) 
 
 system.time(svd(x))
-
 
 head(x)
 
