@@ -17,7 +17,6 @@ if(!file.exists("data")){
 } # 디렉토리에 data가없다면 data 폴더를 만드는 함수
 
 
-
 fileurl<- "https://data.baltimorecity.gov/Transportation/Baltimore-Fixed-Speed-Cameras/dz54-2aru#Download"
 
 download.file(fileurl,destfile = "./data/cameras.csv",method = "curl")
